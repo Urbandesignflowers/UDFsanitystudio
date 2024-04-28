@@ -233,30 +233,33 @@ export default {
           ]
         },
         {
-          type: 'object',
-          name: 'topBanner',
-          title: 'Top Banner',
-          fields: [
+          name: 'infoheadTitle',
+          title: 'Info Page Head Title',
+          type: 'array',
+          of: [
             {
-              title: 'Text',
-              name: 'text',
-              type: 'text',
-              rows: 5
+              type: 'block'
             },
             {
-              name: 'image',
               type: 'image',
-              title: 'Icon',
               fields: [
                 {
+                  type: 'text',
                   name: 'alt',
-                  type: 'string',
-                  title: 'Alternative text'
+                  title: 'Alternative text',
+                  description: `Some of your visitors cannot see images, 
+                          be they blind, color-blind, low-sighted; 
+                          alternative text is of great help for those 
+                          people that can rely on it to have a good idea of 
+                          what\'s on your page.`,
+                  options: {
+                    isHighlighted: true
+                  }
                 }
               ]
-            }
+            },
           ]
-        }
+        },
       ]
     },
     {
