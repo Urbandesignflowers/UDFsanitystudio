@@ -2,8 +2,9 @@
   "root": true,
   "api": {
     "projectId": "yygimxp9",
-    "dataset": "production"
+    "dataset": "feature"
   },
+  
   "project": {
     "name": "Urban Design Flowers"
   },
@@ -46,6 +47,25 @@
     {
       "implements": "part:@sanity/base/document-actions/resolver",
       "path": "./parts/resolveDocumentActions.js"
+    }
+  ],
+  "__experimental_spaces": [
+    {
+      "name": "production",
+      "title": "Production",
+      "default": true,
+      "api": {
+        "projectId": "yygimxp9",
+        "dataset": "production"
+      }
+    },
+    {
+      "name": "feature",
+      "title": "Feature",
+      "api": {
+        "projectId": "yygimxp9",
+        "dataset": "feature"
+      }
     }
   ]
 }
