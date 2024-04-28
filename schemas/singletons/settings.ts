@@ -233,8 +233,8 @@ export default {
           ]
         },
         {
-          name: 'infoheadTitle',
-          title: 'Info Page Head Title',
+          name: 'topBanner',
+          title: 'Top Banner',
           type: 'array',
           of: [
             {
@@ -260,6 +260,18 @@ export default {
             },
           ]
         },
+        {
+          name: 'image',
+          type: 'image',
+          title: 'Icon',
+          fields: [
+            {
+              name: 'alt',
+              type: 'string',
+              title: 'Alternative text'
+            }
+          ]
+        }
       ]
     },
     {
