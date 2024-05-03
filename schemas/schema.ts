@@ -159,6 +159,7 @@ export default createSchema({
     productDescription,
     productContent,
     contentBanner,
-    pageBannerExtended
+    pageBannerExtended,
+    
   ])
 })
