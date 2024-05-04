@@ -54,19 +54,19 @@ export default {
         {
           blockEditor: {
             render: ({ children }) => (
-              <div style={{ fontSize: '2rem', lineHeight: 1.25 }}>{children}</div>
+              <div style={{ fontSize: '2.25rem', lineHeight: 1.25 }}>{children}</div> // Adjust the font size as needed for h1
             )
           },
-          title: 'H1',
+          title: 'h1',
           value: 'h1'
         },
         {
           blockEditor: {
             render: ({ children }) => (
-              <div style={{ fontSize: '1.5rem', lineHeight: 1.25 }}>{children}</div>
+              <div style={{ fontSize: '2rem', lineHeight: 1.25 }}>{children}</div> // Adjust the font size as needed for h2
             )
           },
-          title: 'H2',
+          title: 'h2',
           value: 'h2'
         },
         {
@@ -75,7 +75,7 @@ export default {
               <div style={{ fontSize: '1.75rem', lineHeight: 1.25 }}>{children}</div> // Adjust the font size as needed for h3
             )
           },
-          title: 'H3',
+          title: 'h3',
           value: 'h3'
         },
         {
@@ -113,7 +113,7 @@ export default {
               <div style={{ fontSize: '3rem', lineHeight: 1.0 }}>{children}</div> // Adjust the font size as needed for text-5xl
             )
           },
-          title: 'Text 5XL',
+          title: '48px',
           value: 'text5XL'
         },
         {
@@ -122,7 +122,7 @@ export default {
               <div style={{ fontSize: '2.25rem', lineHeight: 1.0 }}>{children}</div> // Adjust the font size as needed for text-4xl
             )
           },
-          title: 'Text 4XL',
+          title: '36px',
           value: 'text4xl'
         },
         {
@@ -131,7 +131,7 @@ export default {
               <div style={{ fontSize: '1.875rem', lineHeight: 1.0 }}>{children}</div> // Adjust the font size as needed for text-3xl
             )
           },
-          title: 'Text 3XL',
+          title: '30px',
           value: 'text3xl'
         },
         {
@@ -140,7 +140,7 @@ export default {
               <div style={{ fontSize: '1.5rem', lineHeight: 1.0 }}>{children}</div> // Adjust the font size as needed for text-2xl
             )
           },
-          title: 'Text 2XL',
+          title: '24px',
           value: 'text2xl'
         },
         {
@@ -149,7 +149,7 @@ export default {
               <div style={{ fontSize: '1.25rem', lineHeight: 1.0 }}>{children}</div> // Adjust the font size as needed for text-xl
             )
           },
-          title: 'Text XL',
+          title: '20px',
           value: 'textXl'
         },
 
@@ -159,7 +159,7 @@ export default {
               <div style={{ fontSize: '1.125rem', lineHeight: 1.0 }}>{children}</div> // Adjust the font size as needed for h6
             )
           },
-          title: 'Text LG',
+          title: '18px',
           value: 'textLg'
         },
 
@@ -169,7 +169,7 @@ export default {
               <div style={{ fontSize: '1rem', lineHeight: 1.0 }}>{children}</div> // Adjust the font size as needed for h6
             )
           },
-          title: 'Text MD',
+          title: '16px',
           value: 'textMd'
         },
 
@@ -179,7 +179,7 @@ export default {
               <div style={{ fontSize: '0.875rem', lineHeight: 1.0 }}>{children}</div> // Adjust the font size as needed for h6
             )
           },
-          title: 'Text SM',
+          title: '14px',
           value: 'textSm'
         },
 
@@ -189,9 +189,10 @@ export default {
               <div style={{ fontSize: '0.75rem', lineHeight: 1.0 }}>{children}</div> // Adjust the font size as needed for h6
             )
           },
-          title: 'Text XS',
+          title: '12px',
           value: 'textXs'
         }
+
       ],
       // Paragraphs
       type: 'block'
