@@ -20,6 +20,11 @@ export default {
       title: 'Form Text',
       name: 'formText',
       type: 'minimal'
+    },
+    {
+      title: 'Google Maps',
+      name: 'googleMaps',
+      type: 'string'
     }
   ],
   preview: {
