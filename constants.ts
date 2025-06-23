@@ -36,6 +36,7 @@ export const BLOCKS = [
   { type: 'productCarousel' },
   { type: 'textContent' },
   { type: 'posts' },
+  {type: 'blogPosts'},
   { type: 'reviews' },
   { type: 'collectionsBanner' },
   { type: 'contactBanner' },

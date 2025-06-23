@@ -80,6 +80,8 @@ import productDescription from './arrays/productDescription'
 import productContent from './documents/productContent'
 import contentBanner from './objects/pageBlocks/contentBanner'
 import pageBannerExtended from './objects/pageBlocks/pageBannerExtended'
+import blogCategory from './objects/module/blogCategory'
+import blogPosts from './objects/pageBlocks/blogPosts'
 
 // Build the schemas and export to the Sanity Studio app
 export default createSchema({
@@ -98,6 +100,7 @@ export default createSchema({
     // Document types
     collection,
     page,
+    blogCategory,
     product,
     productVariant,
     blog,
@@ -145,6 +148,7 @@ export default createSchema({
     pageBanner,
     productCarousel,
     posts,
+    blogPosts,
     textContent,
     reviews,
     collectionsBanner,

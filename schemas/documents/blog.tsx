@@ -52,6 +52,15 @@ export default {
         }
       ]
     },
+
+    {
+  name: 'blogCategories',
+  title: 'Blog Categories',
+  type: 'array',
+  of: [{ type: 'reference', to: [{ type: 'blogCategory' }] }],
+  group: 'editorial'
+},
+
     { title: 'Summary Text', group: 'editorial', name: 'text', type: 'minimal' },
     { title: 'Published at', name: 'publishedAt', type: 'date' },
     {

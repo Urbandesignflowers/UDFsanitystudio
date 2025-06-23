@@ -15,6 +15,14 @@ export default {
       validation: Rule => Rule.required()
     },
     {
+      name: 'breadcrumbCollection',
+      title: 'Breadcrumb Collection Reference',
+      type: 'reference',
+      to: [{ type: 'collection' }],
+      description:
+        'This provides the link for breadcrumb collection pages like the Funeral page or the Gift Shop page.'
+    },
+    {
       name: 'links',
       type: 'array',
       of: [

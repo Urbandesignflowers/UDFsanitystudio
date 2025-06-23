@@ -29,6 +29,7 @@ import { products } from './desk/products'
 import { settings } from './desk/settings'
 import { reviews } from './desk/reviews'
 import Iframe from 'sanity-plugin-iframe-pane'
+import { blogCategories } from './desk/blogCategories'
 
 // If you add document types to desk structure manually, you can add them to this array to prevent duplicates in the root pane
 // const DOCUMENT_TYPES_IN_STRUCTURE = [
@@ -49,6 +50,7 @@ export default () => {
       home,
       pages,
       blogs,
+      blogCategories,
       reviews,
       S.divider(),
       collections,
