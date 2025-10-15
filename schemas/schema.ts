@@ -64,6 +64,7 @@ import pageBanner from './objects/pageBlocks/pageBanner'
 
 import productCarousel from './objects/pageBlocks/productCarousel'
 import posts from './objects/pageBlocks/posts'
+import collectionsGroup from './objects/pageBlocks/collectionGroup'
 import textContent from './objects/pageBlocks/textContent'
 import reviews from './objects/pageBlocks/reviews'
 import collectionsBanner from './objects/pageBlocks/collectionsBanner'
@@ -99,6 +100,7 @@ export default createSchema({
     annotationLinkInternalStatic,
     // Document types
     collection,
+    collectionsGroup,
     page,
     blogCategory,
     product,
