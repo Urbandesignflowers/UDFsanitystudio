@@ -64,6 +64,7 @@ import pageBanner from './objects/pageBlocks/pageBanner'
 
 import productCarousel from './objects/pageBlocks/productCarousel'
 import posts from './objects/pageBlocks/posts'
+import collectionsGroup from './objects/pageBlocks/collectionGroup'
 import textContent from './objects/pageBlocks/textContent'
 import reviews from './objects/pageBlocks/reviews'
 import collectionsBanner from './objects/pageBlocks/collectionsBanner'
@@ -82,6 +83,7 @@ import contentBanner from './objects/pageBlocks/contentBanner'
 import pageBannerExtended from './objects/pageBlocks/pageBannerExtended'
 import blogCategory from './objects/module/blogCategory'
 import blogPosts from './objects/pageBlocks/blogPosts'
+import featuredProducts from './objects/pageBlocks/featuredProducts'
 
 // Build the schemas and export to the Sanity Studio app
 export default createSchema({
@@ -99,6 +101,7 @@ export default createSchema({
     annotationLinkInternalStatic,
     // Document types
     collection,
+    collectionsGroup,
     page,
     blogCategory,
     product,
@@ -164,6 +167,7 @@ export default createSchema({
     productContent,
     contentBanner,
     pageBannerExtended,
+    featuredProducts
     
   ])
 })

@@ -54,6 +54,8 @@ export default {
       group: 'editorial',
       of: BLOCKS
     },
+
+
     // SEO
     {
       name: 'seo',
