@@ -83,6 +83,7 @@ import contentBanner from './objects/pageBlocks/contentBanner'
 import pageBannerExtended from './objects/pageBlocks/pageBannerExtended'
 import blogCategory from './objects/module/blogCategory'
 import blogPosts from './objects/pageBlocks/blogPosts'
+import featuredProducts from './objects/pageBlocks/featuredProducts'
 
 // Build the schemas and export to the Sanity Studio app
 export default createSchema({
@@ -166,6 +167,7 @@ export default createSchema({
     productContent,
     contentBanner,
     pageBannerExtended,
+    featuredProducts
     
   ])
 })

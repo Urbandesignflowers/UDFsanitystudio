@@ -44,5 +44,6 @@ export const BLOCKS = [
   { type: 'pageHeader' },
   { type: 'gallery' },
   { type: 'contentBanner' },
-  { type: 'collectionsGroup' }
+  { type: 'collectionsGroup' },
+  {type: 'featuredProducts'}
 ]
