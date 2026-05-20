@@ -31,6 +31,7 @@ export const SHOPIFY_STORE_ID = 'admin.shopify.com/store/urban-design-flowers'
 
 export const BLOCKS = [
   {type: 'pageBannerExtended'},
+  {type: 'pageBannerOverlay'},
   { type: 'imagesBanner' },
   { type: 'pageBanner' },
   { type: 'productCarousel' },

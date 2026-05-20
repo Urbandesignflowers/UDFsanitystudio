@@ -81,6 +81,7 @@ import productDescription from './arrays/productDescription'
 import productContent from './documents/productContent'
 import contentBanner from './objects/pageBlocks/contentBanner'
 import pageBannerExtended from './objects/pageBlocks/pageBannerExtended'
+import pageBannerOverlay from './objects/pageBlocks/pageBannerOverlay'
 import blogCategory from './objects/module/blogCategory'
 import blogPosts from './objects/pageBlocks/blogPosts'
 import featuredProducts from './objects/pageBlocks/featuredProducts'
@@ -167,6 +168,7 @@ export default createSchema({
     productContent,
     contentBanner,
     pageBannerExtended,
+    pageBannerOverlay,
     featuredProducts
     
   ])
