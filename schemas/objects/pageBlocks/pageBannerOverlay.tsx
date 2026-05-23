@@ -124,6 +124,22 @@ export default {
       fieldset: 'content',
     },
     {
+      name: 'textSize',
+      type: 'number',
+      title: 'Text size',
+      description: 'Scales headline and body text',
+      initialValue: 125,
+      fieldset: 'content',
+      inputComponent: RangeSliderInput,
+      options: {
+        min: 80,
+        max: 200,
+        step: 5,
+        unit: '%',
+      },
+      validation: (Rule) => Rule.min(80).max(200),
+    },
+    {
       name: 'cta',
       title: 'Call to action',
       type: 'array',
