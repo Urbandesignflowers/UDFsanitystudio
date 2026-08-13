@@ -25,6 +25,10 @@ export default {
     {
       name: 'seo',
       title: 'SEO'
+    },
+    {
+      name: 'cart',
+      title: 'Cart'
     }
   ],
   fields: [
@@ -342,6 +346,14 @@ export default {
         }
       ],
       validation: Rule => Rule.required()
+    },
+    // Cart Settings
+    {
+      name: 'cartShippingText',
+      title: 'Cart Shipping Text',
+      type: 'string',
+      group: 'cart',
+      description: 'Text to display in the cart for shipping cost (e.g. "Calculated at Checkout", "Free Delivery")',
     }
   ],
   preview: {
